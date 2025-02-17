@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frtags on Xuanyu Wu</title>
+    <link>http://localhost:1313/fr/frtags/</link>
+    <description>Recent content in Frtags on Xuanyu Wu</description>
+    <image>
+      <title>Xuanyu Wu</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>fr</language>
+    <copyright>X.Wu</copyright>
+    <atom:link href="http://localhost:1313/fr/frtags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
