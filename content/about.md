@@ -1,19 +1,19 @@
 ---
 title: "About Me"
 date: 2025-02-17
-description: "My Public CV"
+description: "My Online CV"
 layout: "single"
 ---
 
 ## 👨‍🎓 Education  
 -  **The University of Tokyo** *(2023 - 2025)*  
     _Master of Information Science and Technology_  
-     - **Specialization:** Computer Graphics, Procedural Content Generation  
-     - **Supervisor:** Prof. Nobuyuki Umetani  
+     <!-- - **Specialization:** Computer Graphics, Procedural Content Generation  
+     - **Supervisor:** Prof. Nobuyuki Umetani   -->
 
 - **Tokyo Metropolitan University** *(2019 - 2023)*  
      _Bachelor of Engineering in Architecture_  
-     - **Specialization:** Architectural Design, Building Structure  
+     <!-- - **Specialization:** Architectural Design, Building Structure   -->
 
 ---
 
@@ -25,10 +25,10 @@ layout: "single"
 
 ## 🚀 Projects  
 ###  **[Floor Plan Optimization based on Traffic Flow](https://github.com/WvXY/DoorPlacementOptimization)**  
-- **Master’s research** on **automatic door optimization** using flow diagrams.  
+<!-- - **Master’s research** on **automatic door optimization** using flow diagrams.   -->
 
 ### **[Vulkan Renderer](https://i.xwu.ch/projects/vulkan)**  
-- Custom **Vulkan-based rendering engine** for learning and experimentation.  
+<!-- - Custom **Vulkan-based rendering engine** for learning and experimentation.   -->
 
 ---
 
@@ -40,7 +40,7 @@ layout: "single"
 <a href="https://doi.org/10.2312/pg.20241296" class="btn" style="padding: 4px 8px; font-size: 14px; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none;">📌 DOI: 10.2312/pg.20241296</a>  <a href="https://cgenglab.github.io/en/publication/pg24_floorplan/" class="btn" style="padding: 4px 8px; font-size: 14px; background-color: #28a745; color: white; border-radius: 4px; text-decoration: none;">🏠 Project Page</a>
 
 ---
-
+<!-- 
 ## 🛠 Skills  
 ### 💻 **Programming Languages**  
 - **Proficient:** Python 
@@ -62,4 +62,4 @@ layout: "single"
 - **Chinese** (Native) 🇨🇳  
 - **English** (Fluent) 🇺🇸 
 - **Japanese** (Fluent) 🇯🇵  
-- **French** (Basic) 🇫🇷
+- **French** (Basic) 🇫🇷 -->
