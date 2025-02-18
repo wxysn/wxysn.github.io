@@ -4,7 +4,6 @@ title: X.Wu
 theme: ["PaperMod"]
 copyright: "© [X.Wu](https://github.com/WvXY)"
 
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -17,6 +16,12 @@ mainsections: ["posts", "papermod"]
 minify:
   disableXML: true
   # minifyOutput: true
+
+# design:
+#   background:
+#     image:
+#       # Add your image background to `assets/media/`.
+#       filename: media/bg-hue.svg
 
 languages:
   en:
@@ -72,7 +77,6 @@ languages:
         enabled: true
         title: Xuanyu Wu
         imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        # imageUrl: "assets/images/profile.jpg"
         # imageTitle: ProfileMode image
         imageWidth: 120
         imageHeight: 120
@@ -110,7 +114,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "Hi there 👋"
   author: Xuanyu Wu
   # author: ["Me", "You"] # multiple authors
 
@@ -181,9 +185,9 @@ params:
   # icon: icon.png
   # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+      google:
+          SiteVerificationTag: "G-TDBQ19SN37"
 
   assets:
     disableHLJS: true
