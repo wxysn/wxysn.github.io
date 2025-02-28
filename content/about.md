@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2025-02-17
+date: 2025-02-28
 description: "My Online CV"
 layout: "single"
 ---
@@ -19,15 +19,15 @@ layout: "single"
 
 ## 💼 Experience  
 -  **Game Engine Intern**, Tencent Japan G.K. *(Dec 2024 - Present)*  
-- **Unity Engineer**, I. Meisters Inc. *(Dec 2023 - Aug 2024)*  
+- **Unity Engineer (Part-time)**, I. Meisters Inc. *(Dec 2023 - Aug 2024)*  
 
 ---
 
 ## 🚀 Projects  
-###  **[Floor Plan Optimization based on Traffic Flow](https://github.com/WvXY/DoorPlacementOptimization)**  
+-  **[Floor Plan Optimization based on Traffic Flow](https://github.com/WvXY/DoorPlacementOptimization)**  
 <!-- - **Master’s research** on **automatic door optimization** using flow diagrams.   -->
 
-### **[Vulkan Renderer](https://i.xwu.ch/projects/vulkan)**  
+- **[Vulkan Renderer](https://i.xwu.ch/projects/vulkan)**  
 <!-- - Custom **Vulkan-based rendering engine** for learning and experimentation.   -->
 
 ---
