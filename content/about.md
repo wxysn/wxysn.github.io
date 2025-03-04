@@ -3,6 +3,7 @@ title: "About Me"
 date: 2025-02-28
 description: "My Online CV"
 layout: "single"
+toc: false
 ---
 
 ## 👨‍🎓 Education  
