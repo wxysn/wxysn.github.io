@@ -3,6 +3,8 @@ languageCode: en-us
 title: X.Wu
 theme: ["PaperMod"]
 copyright: "© [X.Wu](https://github.com/WvXY)"
+icon: 👾
+logo: 🚀
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -24,8 +26,10 @@ minify:
 #       filename: media/bg-hue.svg
 
 languages:
+  # English version
   en:
-    languageName: "English"
+    languageName: ":us:/:uk:"
+    languageCode: en-us
     weight: 1
     taxonomies:
       category: categories
@@ -45,32 +49,6 @@ languages:
     #     - name: WiKi
     #       url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
-  # fr:
-  #   languageName: ":fr:"
-  #   weight: 2
-  #   title: Xuanyu Wu
-  #   taxonomies:
-  #     category: FRcategories
-  #     tag: FRtags
-  #     series: FRseries
-  #   menu:
-  #     main:
-  #       - name: Archive
-  #         url: archives/
-  #         weight: 5
-  #       - name: FRTags
-  #         url: frtags
-  #         weight: 10
-  #       - name: FRCategories
-  #         url: frcategories
-  #         weight: 10
-  #       - name: FRSeries
-  #         url: frseries
-  #         weight: 10
-  #       - name: NullLink
-  #         url: "#"
-
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
       languageAltTitle: English
       profileMode:
@@ -81,11 +59,60 @@ languages:
         imageWidth: 120
         imageHeight: 120
         subtitle: "Hi there 👋"
-        # buttons:
-        #   - name: Blog
-        #     url: posts
-        #   - name: Profile Mode
-        #     url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+
+  # # French version
+  # fr:
+  #   languageName: ":fr:"
+  #   weight: 2
+  #   title: X.Wu
+  #   taxonomies:
+  #     category: FRcategories
+  #     tag: FRtags
+  #     series: FRseries
+
+  #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
+  #   params:
+  #     languageAltTitle: French
+  #     profileMode:
+  #       enabled: true
+  #       title: Xuanyu Wu
+  #       imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+  #       # imageTitle: ProfileMode image
+  #       imageWidth: 120
+  #       imageHeight: 120
+  #       subtitle: "Salut 👋"
+  #       # buttons:
+  #       #   - name: Blog
+  #       #     url: posts
+  #       #   - name: Profile Mode
+  #       #     url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+
+  # # Japanese version
+  # jp:
+  #   languageName: ":jp:"
+  #   weight: 3
+  #   title: X.Wu
+  #   taxonomies:
+  #     category: JPcategories
+  #     tag: JPtags
+  #     series: JPseries
+
+  #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
+  #   params:
+  #     languageAltTitle: Japanese
+  #     profileMode:
+  #       enabled: true
+  #       title: 呉 軒宇
+  #       imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+  #       # imageTitle: ProfileMode image
+  #       imageWidth: 120
+  #       imageHeight: 120
+  #       subtitle: "こんにちは！ 👋"
+  #       # buttons:
+  #       #   - name: Blog
+  #       #     url: posts
+  #       #   - name: Profile Mode
+  #       #     url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
   # fa:
   #   languagedirection: rtl
@@ -128,7 +155,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
-  ShowAllPagesInArchive: true
+  ShowAllPagesInArchive: false
   ShowPageNums: true
   ShowToc: true
   # comments: false
@@ -217,11 +244,11 @@ markup:
       unsafe: true
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
 
 # privacy:
 #   vimeo:
@@ -246,3 +273,8 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+
+
+# defaultContentLanguage: en
+# defaultContentLanguageInSubdir: true
+
