@@ -3,8 +3,6 @@ languageCode: en-us
 title: X.Wu
 theme: ["PaperMod"]
 copyright: "© [X.Wu](https://github.com/WvXY)"
-icon: 👾
-logo: 🚀
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -54,11 +52,12 @@ languages:
       profileMode:
         enabled: true
         title: Xuanyu Wu
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageUrl:  "https://www.svgrepo.com/download/454562/animal-cat-circle.svg"
         # imageTitle: ProfileMode image
-        imageWidth: 120
-        imageHeight: 120
-        subtitle: "Hi there 👋"
+        imageWidth: 160
+        imageHeight: 160
+        subtitle: "Hi there! <img src='https://www.svgrepo.com/download/312775/paw-prints.svg' alt='Footstep Icon' width='22' style='vertical-align: middle; display: inline;' />"
+
 
   # # French version
   # fr:
@@ -207,10 +206,10 @@ params:
   #   appendFilePath: true # to append file path to Edit link
 
   # label:
-  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
-  # text: "Home"
-  # icon: icon.png
-  # iconHeight: 35
+  #   iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+  #   text: "Home"
+  #   icon: icon.png
+  #   iconHeight: 35
 
   analytics:
       google:
@@ -218,11 +217,11 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "https://www.svgrepo.com/download/454531/animal-domestic-footstep.svg"
+    # favicon16x16: "https://img.icons8.com/?size=16&id=7kY6NvvyuPc7&format=png&color=000000"
+    # favicon32x32: "https://img.icons8.com/?size=32&id=7kY6NvvyuPc7&format=png&color=000000"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
