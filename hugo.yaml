@@ -272,6 +272,8 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+  googleAnalytics:
+    id: G-TDBQ19SN37
 
 
 # defaultContentLanguage: en
