@@ -2,9 +2,9 @@
 <footer class="footer">
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
-        <span style="font-size: 0.8em;">{{ site.Copyright | markdownify }}</span>
+        <span style="font-size: 0.6em;">{{ site.Copyright | markdownify }}</span>
         {{- else }}
-        <span style="font-size: 0.8em;">&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+        <span style="font-size: 0.6em;">&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
         {{- print " · "}}
     {{- end }}
@@ -14,7 +14,7 @@
         {{- print " · "}}
     {{- end }}
 
-    <span style="font-size: 0.8em;">
+    <span style="font-size: 0.6em;">
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &amp;
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>.
