@@ -220,8 +220,8 @@ params:
     favicon: "https://www.svgrepo.com/download/454531/animal-domestic-footstep.svg"
     # favicon16x16: "https://img.icons8.com/?size=16&id=7kY6NvvyuPc7&format=png&color=000000"
     # favicon32x32: "https://img.icons8.com/?size=32&id=7kY6NvvyuPc7&format=png&color=000000"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
+    apple_touch_icon: "https://www.svgrepo.com/download/454531/animal-domestic-footstep.svg"
+    safari_pinned_tab: "https://www.svgrepo.com/download/454531/animal-domestic-footstep.svg"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
