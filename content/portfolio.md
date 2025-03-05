@@ -28,20 +28,20 @@ categories: ["Portfolio"]
 
 
 <!-- <img src="/assets/img/XenonVk/xev2phy.gif" width="300"/> -->
-
-
-
 ---
 
-## Other Work: Design Portfolio
+## 2. XenonVK::Vulkan Engine for Learning
+
+
+<!-- ## Other Work: Design Portfolio
 
     Skills: Photoshop, Illustrator, InDesign, AutoCAD, SketchUp, Rhino, V-ray, lumion
 
 <!-- 学部時代で建築設計の授業を受けていました。建築設計の基本的な考え方、デザインのプロセス、建築物の構造、環境設計などを学びました。以下のリンクからポートフォリオを読むことができます。 -->
 
-I have taken architectural design courses during my undergraduate studies. I learned the basic concepts of architectural design, the design process, building structures, and environmental design. You access it from the link below.
+<!-- I have taken architectural design courses during my undergraduate studies. I learned the basic concepts of architectural design, the design process, building structures, and environmental design.  -->
 
-- Dropbox link: [Architecture Portfolio(Last update: 2023-06)](https://www.dropbox.com/scl/fi/i9haf5bx9ymkkia6u61zm/Academic_Portfolio_WuXuanyu.pdf?rlkey=4sdhgc5byhpnddx2r1lfnetcn&dl=0)
+<!-- - Dropbox link: [Architecture Portfolio(Last update: 2023-06)](https://www.dropbox.com/scl/fi/i9haf5bx9ymkkia6u61zm/Academic_Portfolio_WuXuanyu.pdf?rlkey=4sdhgc5byhpnddx2r1lfnetcn&dl=0) --> 
 
 --------------
 <!-- _以上になります。ご覧いただきありがとうございます!!_ -->
