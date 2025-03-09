@@ -36,7 +36,7 @@ Working in progress...
 
 ### Highlights
 
-- Developed a **Python** program to optimize door placement for optimizing floor plan design.
+- Developed a *Python* program to optimize door placement for optimizing floor plan design.
 - Implemented a _2D navigation mesh(half-edge mesh, A\* pathfinding, funnel algorithm)_ from scratch.
 - Designed a runtime optimization system with _dynamic mesh cut/merge operations_ and _history tracking_.
 - Applied data-oriented design(DOD) for better performance.
@@ -63,7 +63,7 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 
 ## 2. XenonVK::Vulkan Engine for Learning
 
-<div style="display: flex; gap: 6px; align-items: center; margin-top: -1.5em;">
+<div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: -1.5em;">
     <!-- GitHub Badge -->
     <a href="https://github.com/WvXY/XenonVk" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" />    
@@ -88,7 +88,7 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 
 <img src="/img/XenonVk/lge_demo.gif" width="800" alt="Simple demo"/>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="/img/XenonVk/wireframe3.png" width="350" alt="Wireframe"/>
     <img src="/img/XenonVk/lge_latest.png" width="350" alt="Complex scene"/>
 </div>
@@ -106,7 +106,7 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 ## 3. Other Small Projects
 ### A\) [Apollonian Gasket Generator *(Rhinoceros/Python)*](https://github.com/WvXY/_TinyProjects/tree/master/ApollonianGasket)
 
-<div style="display: flex; gap: 2px;">
+<div style="display: flex; gap: 2px; flex-wrap: wrap;">
     <img src="/img/small/ap.gif" height="142"/>
     <img src="/img/small/1.jpg"  height="142"/>
     <img src="/img/small/2.jpg"  height="142"/>
@@ -116,7 +116,7 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 
 ### B\) [Voronoi Diagram Experiments *(Python/GLSL)*](https://github.com/WvXY/_toolkitPy/blob/main/demos/voronoi_interactive.py)
 
-<div style="display: flex; gap: 12px;">
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
     <img src="/img/small/voronoi1.gif"          height="200"/>
     <img src="/img/small/voronoi2che.gif"       height="200"/>
     <img src="/img/small/voronoi_shader.gif"    height="200"/>
