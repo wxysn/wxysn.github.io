@@ -1,11 +1,11 @@
 ---
 title: "Portfolio[WIP]"
-description: "Showcasing my projects."
+description: "Showcasing my personal projects."
 date: 2025-03-04
 layout: "single"
 type: "portfolio"
 
-# urls 
+# urls
 aliases: ["/projects/"]
 slug: "portfolio"
 
@@ -15,10 +15,11 @@ robots: "noindex, nofollow"
 # Taxonomies
 categories: ["Portfolio"]
 ---
+
 Working in progress...
 
-
 <!-- <h2 style="margin-bottom: 0px;">1. Door Placement Optimization based on Human Traffic Simulation</h2> -->
+
 ## 1. Door Placement Optimization based on Human Traffic Simulation
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: -1.5em;">
@@ -33,33 +34,31 @@ Working in progress...
     <img src="https://img.shields.io/badge/PCG-228B22?style=for-the-badge&logoColor=white" />
 </div>
 
-
 ### Highlights
-- Developed a Python program to optimize door placement for optimizing floor plan design.
-- Implemented *2D navigation mesh(A\* pathfinding, funnel algorithm)* from scratch.
-- Runtime ECS optimization system with mesh cut/merge operations and history tracking. 
 
-### Description 
-- **Problem**: In building design, the placement of doors is crucial for people's movements, which determines the efficiency of the building.
-- **Solution**: Optimize the placement of doors based on human traffic simulation.
+- Developed a **Python** program to optimize door placement for optimizing floor plan design.
+- Implemented a _2D navigation mesh(half-edge mesh, A\* pathfinding, funnel algorithm)_ from scratch.
+- Designed a runtime optimization system with _dynamic mesh cut/merge operations_ and _history tracking_.
+- Applied data-oriented design(DOD) for better performance.
 
-### Method
-1. Use
+### Description
 
-
+- Problem: In architectural design, door placement significantly impacts movement flow and overall building efficiency.
+- Solution: Optimized door placement through human traffic simulation to enhance spatial efficiency.
 
 ### Presentation Slides
+
 <iframe src="https://onedrive.live.com/embed?resid=8DCD98BB606235A5%21328838&amp;authkey=%21AOLsN1v5a8FjahM&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="1000px" height="440px" frameborder="0">
 This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
 </iframe>
-*My presentation slide for master thesis defence in UTokyo.(Modified)*
 
+_My presentation slide for master thesis defence in UTokyo.(Modified)_
 
 ### Dependencies \& References
+
 - [PythonCDT (Constrained Delaunay Triangulation)](https://github.com/artem-ogre/PythonCDT)
 - Funnel Algorithm: https://medium.com/@reza.teshnizi/the-funnel-algorithm-explained-visually-41e374172d2d
 
-<!-- <img src="/assets/img/XenonVk/xev2phy.gif" width="300"/> -->
 ---
 
 ## 2. XenonVK::Vulkan Engine for Learning
@@ -80,11 +79,50 @@ This is an embedded <a target="_blank" href="https://office.com">Microsoft Offic
     <img src="https://img.shields.io/badge/Rendering-8A2BE2?style=for-the-badge&logoColor=white" />
 </div>
 
-
 ### Highlights
-- Developed a Vulkan rendering engine for learning purposes.
-- Implemented a Vulkan renderer, shader compiler, and input system.
-- Created a custom Vulkan memory allocator for efficient memory management.
+
+- Developing a game engine in C++ to explore computer graphics, Vulkan, and rendering techniques.
+- Implemented a 3D Vulkan renderer with the _Blinn–Phong reflection model_.
+- Integrated a CMake build system and GLSL shader compilation.
+- Added support for _OBJ mesh loading_, a _game time system_, and _mouse/keyboard input_.
+
+<img src="/img/XenonVk/lge_demo.gif" width="800" alt="Simple demo"/>
+
+<div style="display: flex; gap: 20px;">
+    <img src="/img/XenonVk/wireframe3.png" width="350" alt="Wireframe"/>
+    <img src="/img/XenonVk/lge_latest.png" width="350" alt="Complex scene"/>
+</div>
+
+### Reference
+
+- [Brendan Galea: LittleVulkanEngine](https://youtu.be/Y9U9IE0gVHA?si=42keJCaEPE-R697P)
+- <https://gameprogrammingpatterns.com/>
+- _Game Engine Architecture_ by Jason Gregory
+- _Game Physics Engine Development_ by Ian Millington
+- <https://learnopengl.com/>
+
+----
+
+## 3. Other Small Projects
+### A\) [Apollonian Gasket Generator *(Rhinoceros/Python)*](https://github.com/WvXY/_TinyProjects/tree/master/ApollonianGasket)
+<div style="display: flex; gap: 2px;">
+    <img src="/img/demos/ap.gif" height="142"/>
+    <img src="/img/demos/1.jpg"  height="142"/>
+    <img src="/img/demos/2.jpg"  height="142"/>
+    <img src="/img/demos/3.png"  height="142"/>
+    <img src="/img/demos/6.png"  height="142"/>
+</div>
+
+### B\) [Voronoi Diagram Experiments *(Python/GLSL)*](https://github.com/WvXY/_toolkitPy/blob/main/demos/voronoi_interactive.py)
+<div style="display: flex; gap: 12px;">
+    <img src="/img/demos/voronoi1.gif"          height="200"/>
+    <img src="/img/demos/voronoi2che.gif"       height="200"/>
+    <img src="/img/demos/voronoi_shader.gif"    height="200"/>
+</div>
+
+<!-- ### C\) Archictural Design *(AutoCAD/SketchUp/Rhinoceros/InDesign/Illustrator)*
+
+- Dropbox link: [Architecture Portfolio(Last update: 2023-06)](https://www.dropbox.com/scl/fi/i9haf5bx9ymkkia6u61zm/Academic_Portfolio_WuXuanyu.pdf?rlkey=4sdhgc5byhpnddx2r1lfnetcn&dl=0) -->
 
 <!-- ## Other Work: Design Portfolio
 
@@ -94,8 +132,10 @@ This is an embedded <a target="_blank" href="https://office.com">Microsoft Offic
 
 <!-- I have taken architectural design courses during my undergraduate studies. I learned the basic concepts of architectural design, the design process, building structures, and environmental design.  -->
 
-<!-- - Dropbox link: [Architecture Portfolio(Last update: 2023-06)](https://www.dropbox.com/scl/fi/i9haf5bx9ymkkia6u61zm/Academic_Portfolio_WuXuanyu.pdf?rlkey=4sdhgc5byhpnddx2r1lfnetcn&dl=0) --> 
 
---------------
+
+---
+
 <!-- _以上になります。ご覧いただきありがとうございます!!_ -->
+
 Thank you for reading!
