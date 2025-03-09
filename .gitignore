@@ -2,3 +2,5 @@ public/
 resources/
 *.log
 *.bak
+
+.idea/
