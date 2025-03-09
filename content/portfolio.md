@@ -15,9 +15,6 @@ robots: "noindex, nofollow"
 # Taxonomies
 categories: ["Portfolio"]
 ---
-
-<!-- <h2 style="margin-bottom: 0px;">1. Door Placement Optimization based on Human Traffic Simulation</h2> -->
-
 ## 1. Door Placement Optimization based on Human Traffic Simulation
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: -1.5em;">
