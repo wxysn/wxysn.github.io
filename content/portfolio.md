@@ -105,12 +105,13 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 
 ## 3. Other Small Projects
 ### A\) [Apollonian Gasket Generator *(Rhinoceros/Python)*](https://github.com/WvXY/_TinyProjects/tree/master/ApollonianGasket)
+
 <div style="display: flex; gap: 2px;">
-    <img src="/img/demos/ap.gif" height="142"/>
-    <img src="/img/demos/1.jpg"  height="142"/>
-    <img src="/img/demos/2.jpg"  height="142"/>
-    <img src="/img/demos/3.png"  height="142"/>
-    <img src="/img/demos/6.png"  height="142"/>
+    <img src="/static/img/demos/ap.gif" width="142"/>
+    <img src="/static/img/demos/1.jpg"  width="142"/>
+    <img src="/static/img/demos/2.jpg"  height="142"/>
+    <img src="/static/img/demos/3.png"  height="142"/>
+    <img src="/static/img/demos/6.png"  height="142"/>
 </div>
 
 ### B\) [Voronoi Diagram Experiments *(Python/GLSL)*](https://github.com/WvXY/_toolkitPy/blob/main/demos/voronoi_interactive.py)
