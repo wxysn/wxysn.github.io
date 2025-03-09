@@ -107,18 +107,19 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 ### A\) [Apollonian Gasket Generator *(Rhinoceros/Python)*](https://github.com/WvXY/_TinyProjects/tree/master/ApollonianGasket)
 
 <div style="display: flex; gap: 2px;">
-    <img src="/static/img/demos/ap.gif" width="142"/>
-    <img src="/static/img/demos/1.jpg"  width="142"/>
-    <img src="/static/img/demos/2.jpg"  height="142"/>
-    <img src="/static/img/demos/3.png"  height="142"/>
-    <img src="/static/img/demos/6.png"  height="142"/>
+    <img src="/img/small/ap.gif" height="142"/>
+    <img src="/img/small/1.jpg"  height="142"/>
+    <img src="/img/small/2.jpg"  height="142"/>
+    <img src="/img/small/3.png"  height="142"/>
+    <img src="/img/small/6.png"  height="142"/>
 </div>
 
 ### B\) [Voronoi Diagram Experiments *(Python/GLSL)*](https://github.com/WvXY/_toolkitPy/blob/main/demos/voronoi_interactive.py)
+
 <div style="display: flex; gap: 12px;">
-    <img src="/img/demos/voronoi1.gif"          height="200"/>
-    <img src="/img/demos/voronoi2che.gif"       height="200"/>
-    <img src="/img/demos/voronoi_shader.gif"    height="200"/>
+    <img src="/img/small/voronoi1.gif"          height="200"/>
+    <img src="/img/small/voronoi2che.gif"       height="200"/>
+    <img src="/img/small/voronoi_shader.gif"    height="200"/>
 </div>
 
 <!-- ### C\) Archictural Design *(AutoCAD/SketchUp/Rhinoceros/InDesign/Illustrator)*
