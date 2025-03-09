@@ -1,7 +1,7 @@
 ---
-title: "Portfolio[WIP]"
-description: "Showcasing my personal projects."
-date: 2025-03-04
+title: "Portfolio"
+description: "Showcasing my projects."
+date: 2025-03-10
 layout: "single"
 type: "portfolio"
 
@@ -15,8 +15,6 @@ robots: "noindex, nofollow"
 # Taxonomies
 categories: ["Portfolio"]
 ---
-
-Working in progress...
 
 <!-- <h2 style="margin-bottom: 0px;">1. Door Placement Optimization based on Human Traffic Simulation</h2> -->
 
@@ -37,20 +35,27 @@ Working in progress...
 ### Highlights
 
 - Developed a *Python* program to optimize door placement for optimizing floor plan design.
-- Implemented a _2D navigation mesh(half-edge mesh, A\* pathfinding, funnel algorithm)_ from scratch.
+- Implemented a _2D navigation mesh(half-edge mesh, A\* pathfinding, funnel algorithm)_ from scratch for large-scale human traffic simulation.
 - Designed a runtime optimization system with _dynamic mesh cut/merge operations_ and _history tracking_.
 - Applied data-oriented design(DOD) for better performance.
 
-### Description
+<!-- ### Description
 
 - Problem: In architectural design, door placement significantly impacts movement flow and overall building efficiency.
-- Solution: Optimized door placement through human traffic simulation to enhance spatial efficiency.
+- Solution: Optimized door placement through human traffic simulation to enhance spatial efficiency. -->
+### Demo
+
+<div style="display: flex; gap: 2px; flex-wrap: wrap;">
+    <img src="/img/door_opti/case3.gif" width="355" alt="Case1"/>
+    <img src="/img/door_opti/case2.gif" width="355" alt="Case2"/>
+</div>
+
+### Results
+<img src="/img/door_opti/ress.svg"/>
 
 ### Presentation Slides
 
-<iframe src="https://onedrive.live.com/embed?resid=8DCD98BB606235A5%21328838&amp;authkey=%21AOLsN1v5a8FjahM&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="1000px" height="440px" frameborder="0">
-This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
-</iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1jLlie6EEiZ9U5lInwdKidgGKRUlAOo6SSXOjkihmi6e0dzDFSiiSa7Nsz8Mel1weD6SSquABEgQx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="440" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 _My presentation slide for master thesis defence in UTokyo.(Modified)_
 
@@ -81,7 +86,7 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 
 ### Highlights
 
-- Developing a game engine in C++ to explore computer graphics, Vulkan, and rendering techniques.
+- Developing a game engine in C++ to explore Vulkan and engine/rendering techniques.
 - Implemented a 3D Vulkan renderer with the _Blinn–Phong reflection model_.
 - Integrated a CMake build system and GLSL shader compilation.
 - Added support for _OBJ mesh loading_, a _game time system_, and _mouse/keyboard input_.
@@ -103,7 +108,7 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
 
 ----
 
-## 3. Other Small Projects
+## 3. Gallery of Other Projects
 ### A\) [Apollonian Gasket Generator *(Rhinoceros/Python)*](https://github.com/WvXY/_TinyProjects/tree/master/ApollonianGasket)
 
 <div style="display: flex; gap: 2px; flex-wrap: wrap;">
@@ -114,6 +119,7 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
     <img src="/img/small/6.png"  height="142"/>
 </div>
 
+
 ### B\) [Voronoi Diagram Experiments *(Python/GLSL)*](https://github.com/WvXY/_toolkitPy/blob/main/demos/voronoi_interactive.py)
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap;">
@@ -121,6 +127,18 @@ _My presentation slide for master thesis defence in UTokyo.(Modified)_
     <img src="/img/small/voronoi2che.gif"       height="200"/>
     <img src="/img/small/voronoi_shader.gif"    height="200"/>
 </div>
+
+### C\) [ [PG24] Free-form Floor Plan Design *(Rust)*](https://github.com/nobuyuki83/floor_plan)
+
+<div style="display: flex; gap: 2px; flex-wrap: wrap;">
+    <img src="/img/pg24/case1a.gif"   height="142"/>
+    <img src="/img/pg24/case1b.gif"   height="142"/>
+    <img src="/img/pg24/case1c.gif"   height="142"/>
+    <img src="/img/pg24/case2.gif"    height="142"/>
+    <img src="/img/pg24/case3.gif"    height="142"/>
+</div>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vShKHsZw3p9qNFpXGKxKgCIxGIYGMbGtZOr7vMz6I29i2DjnqMHPeuCL3Sd-b6xPDxArpL6cOmm5Jds/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="440" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <!-- ### C\) Archictural Design *(AutoCAD/SketchUp/Rhinoceros/InDesign/Illustrator)*
 
