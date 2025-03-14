@@ -1,0 +1,45 @@
+<h3 class="toggle">
+    <span class="arrow">▶</span> {{ .Get "title" }}
+</h3>
+<div class="content">{{ .Inner }}</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".toggle").forEach(function (title) {
+            title.addEventListener("click", function () {
+                this.nextElementSibling.classList.toggle("active");
+                this.querySelector(".arrow").classList.toggle("rotated");
+            });
+        });
+    });
+</script>
+
+<style>
+    .toggle {
+        cursor: pointer;
+        color: #AA6C39;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        gap: 5px;
+    }
+
+    .content {
+        display: none;
+        padding: 10px;
+        border-left: 3px solid #AA6C39;
+        margin-bottom: 10px;
+    }
+
+    .content.active {
+        display: block;
+    }
+
+    .arrow {
+        transition: transform 0.3s ease;
+    }
+
+    .rotated {
+        transform: rotate(90deg);
+    }
+</style>
