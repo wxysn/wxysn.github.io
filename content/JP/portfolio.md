@@ -1,7 +1,7 @@
 ---
 title: "ポートフォリオ"
 description: "個人のプロジェクトの紹介と成果物のデモ"
-date: 2025-03-28
+date: 2025-04-08
 layout: "single"
 type: "portfolio"
 lang: "jp"
@@ -16,6 +16,7 @@ robots: "noindex, nofollow"
 # Taxonomies
 categories: ["Portfolio"]
 ---
+
 ## 1. 動線シミュレーションに基づくドア配置最適化
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: -1.5em;">
@@ -33,7 +34,7 @@ categories: ["Portfolio"]
 ### ハイライト
 
 - **Python** を用いて，間取り設計の最適化のためのドア配置最適化プログラムを開発
-- 大規模な人の流れシミュレーションのために，**2Dナビゲーションメッシュ（半エッジメッシュ，A\*経路探索，ファンネルアルゴリズム）** をゼロから実装
+- 大規模な人の流れシミュレーションのために，**2D ナビゲーションメッシュ（半エッジメッシュ，A\*経路探索，ファンネルアルゴリズム）** をゼロから実装
 - **動的メッシュの切断/統合操作** と **履歴追跡** を活用したランタイム最適化システムを設計
 - 高速処理のためにデータ指向設計(DOD)を適用
 
@@ -45,6 +46,7 @@ categories: ["Portfolio"]
 </div>
 
 ### 結果
+
 <img src="/img/door_opti/ress.svg"/>
 
 ### 苦労した部分
@@ -52,50 +54,53 @@ categories: ["Portfolio"]
 {{< toggle title="動的なメッシュ処理" >}}
 
 <strong>関連コード：</strong>  
-<code>u_geometry.py</code>, <code>g_mesh.py</code>, <code>s_door_system.py</code>  
+<code>u_geometry.py</code>, <code>g_mesh.py</code>, <code>s_door_system.py</code>
 
 <br>  
 Half–edge 構造に対して，基本的な操作を2種類実装した：  
 Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>する操作．  
 メッシュを更新する際に構造を壊さず，元のメッシュ情報を保持することが重要だった．  
-<br>  
+<br>
 
-<strong>Half–edge 構造の活用：</strong>  
+<strong>Half–edge 構造の活用：</strong>
+
 <ul>
     <li>各 Edge に探索を効率化する情報（例：面，対角の頂点など）を組み込む．</li>
-    <li>ジオメトリーの管理やデバッグを容易にするため,ジオメトリーに ID を付与し，デバッグ描画で確認できるようにした．</li>
+    <li>ジオメトリーの管理やデバッグを容易にするため，ジオメトリーに ID を付与し，デバッグ描画で確認できるようにした．</li>
 </ul>
 
-<br>  
+<br>
 
-<strong>履歴機能の実装：</strong>  
+<strong>履歴機能の実装：</strong>
+
 <ul>
     <li>一連の更新を行っても，元の Edge を保存できるようにする．</li>
-    <li>ジオメトリーの変更を追跡するために,履歴機能を導入．</li>
-    <li>履歴機能では,初期の Edge と Edge 上の位置（0–1）を記録することで，変更を管理できる．</li>
+    <li>ジオメトリーの変更を追跡するために，履歴機能を導入．</li>
+    <li>履歴機能では，初期の Edge と Edge 上の位置（0–1）を記録することで，変更を管理できる．</li>
 </ul>
 
 <br>  
 <img src="/img/door_opti/dbg.gif" alt="Debug Draw"/>  
 🔼 デバッグ描画では，ドアコンポーネントを Edge 上で時計回りに移動させながら，
-動的にメッシュを<strong>切断/統合</strong>しているが，初期に作成したジオメトリーの情報が保持されている．  
+動的にメッシュを<strong>切断/統合</strong>しているが，初期に作成したジオメトリーの情報が保持されている．
 
 {{< /toggle >}}
 
 ### 注目すべき部分
 
-{{< toggle title="ナビゲーションメッシュの実装" >}}
+{{< toggle color="#15a8a1" title="ナビゲーションメッシュの実装" >}}
 
 <strong>関連コード：</strong>  
-<code>u_cdt.py</code>, <code>u_path_finding.py</code>, <code>g_navmesh.py</code>  
+<code>u_cdt.py</code>, <code>u_path_finding.py</code>, <code>g_navmesh.py</code>
 
 <br>  
 カスタマイズ性を重視し，ゼロからナビゲーションメッシュを実装することにした．  
 ナビゲーションメッシュの実装には，メッシュの構築，A*経路探索，ファンネルアルゴリズムの実装など，多くの技術的課題があった．  
 特に,ファンネルアルゴリズムの実装では，複雑なエッジケースが多く，デバッグが困難だった．  
-<br>  
+<br>
 
-<strong>実装の流れ：</strong>  
+<strong>実装の流れ：</strong>
+
 <ol>
     <li>
         <strong>2Dメッシュの構築</strong><br>
@@ -117,16 +122,17 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
 
 <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
 
-{{< toggle title="ランタイム最適化アルゴリズム" >}}
+{{< toggle color="#15a8a1" title="ランタイム最適化アルゴリズム" >}}
 <strong>関連コード：</strong>  
-<code>u_loader.py</code>, <code>s_***.py</code>, <code>o_optimizer.py</code>, <code>f_layout.py</code>  
+<code>u*loader.py</code>, <code>s*\*\*\*.py</code>, <code>o_optimizer.py</code>, <code>f_layout.py</code>
 
 <br>  
-　本プログラムは,動線を考慮した間取り最適化を目的とし，サンプリング点を設定して人の動線をシミュレーションする．  
+　本プログラムは，動線を考慮した間取り最適化を目的とし，サンプリング点を設定して人の動線をシミュレーションする．  
 平均移動距離をロス関数とし，ドアの配置を最適化することを主眼としている．  
-<br>  
+<br>
 
-<strong>最適化の手順：</strong>  
+<strong>最適化の手順：</strong>
+
 <ol>
     <li>
         <strong>初期設定の読み込み</strong><br>
@@ -146,12 +152,11 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
 </ol>
 {{< /toggle >}}
 
-
 ### プレゼンテーションスライド
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1jLlie6EEiZ9U5lInwdKidgGKRUlAOo6SSXOjkihmi6e0dzDFSiiSa7Nsz8Mel1weD6SSquABEgQx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="440" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-修士論文発表用スライド（修正版）　
+修士論文発表用スライド（修正版）
 
 ### ライブラリ & 参考文献
 
@@ -160,7 +165,7 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
 
 ---
 
-## 2. XenonVK::学習用Vulkanエンジン
+## 2. XenonVK::学習用 Vulkan エンジン
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: -1.5em;">
     <a href="https://github.com/WvXY/XenonVk" target="_blank" rel="noopener noreferrer">
@@ -177,31 +182,113 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
 
 ### ハイライト
 
-- Vulkanやレンダリング技術の学習のためにC++でゲームエンジンを開発
-- **Blinn–Phong反射モデル** を使用した3D Vulkanレンダラーを実装
-- CMakeビルドシステムとGLSLシェーダーコンパイルを統合
-- **OBJメッシュローディング**，**ゲームタイムシステム**，**マウス/キーボード入力** を追加
+- Vulkan とゲームエンジンアーキテクチャを学習するための C++でゲームエンジン開発
+- **Blinn–Phong 反射モデル** を使用した 3D Vulkan レンダラーを実装
+- CMake ビルドシステムと GLSL シェーダーコンパイルを統合
+- **OBJ メッシュローディング**，**ゲームタイムシステム**，**マウス/キーボード入力** を追加
 
-<img src="/img/XenonVk/lge_demo.gif" width="800" alt="簡単なデモ"/>
+### 苦労した部分
+
+{{< toggle color="#AA6C39" title="Vulkan APIとゲームエンジンの学習" >}}
+
+<strong>関連分野：</strong> Vulkan API，ゲームエンジン設計，グラフィックスプログラミング
+
+<br>
+
+Vulkan API は，OpenGL と比べて新しくて非常に低レベルなグラフィックス API であり，リソースの管理や同期処理をすべて手動で行う必要があります．  
+そのため，学習初期には「LittleVulkanEngine」という動画教材を参考し，描画パイプラインやリソース管理の枠組みを実装しました．
+
+<br>
+<ul>
+    <li>
+    <strong>問題点：</strong>  
+  基本的なフレームワークを実装しましたが，ローレベルでコードの複雑さと量に圧倒され，非常に時間がかかりました．
+    </li>
+    <li>
+    <strong>取り組み：</strong>  
+    <ol>
+        <li>レンダラーの実装を一時中止し，ゲームエンジンのアーキテクチャに力を入れました．</li>
+        <li>同時に比較的に簡単な2Dバージョンで，基本的なPrimitiveから簡単な物理アニメーションを実装してみました．</li>
+        <li>LearnOpenGLのチュートリアルを参考にしながら，OpenGLの描画パイプラインを勉強しました．</li>
+        <li>その後，ChatGPT，技術ブログや本を参考にしながら，Tickベースの時間管理や，ECS（Entity Component System）によるオブジェクト管理システムを実装．</li>
+        </ol>
+    </li>
+    <li>
+    <strong>改善と成果：</strong>  
+    <ol>
+        <li>既存なエンジン構造を参考し，何度もリファクタリングすることで，内部処理の流れを理解でき，エンジンのアーキテクチャも整理されました．</li>
+        <li>結果的に，Validation Layerの警告に対応しながら，Vulkanの実装を再開することができました．</li>
+        <li>現在ではデバッグ用WireframeのRender Passの追加やデバッグなど，描画処理の安定化を進めています．</li>
+    </ol>
+  </li>
+</ul>
+{{< /toggle >}}
+
+---
+
+### 注目すべき部分
+
+{{< toggle color="#15a8a1" title="CMake ビルドシステムと GitHub のCI環境" >}}
+
+<strong>関連技術：</strong> CMake，クロスプラットフォーム開発，GitHub Actions，Vulkan，GLSL
+
+<br>
+
+私の開発環境は，Windows と MacOS の両方を使用しており，クロスプラットフォーム対応が必要でした．
+そのため，ビルドシステムには柔軟性と拡張性に優れた<strong>CMake</strong>を導入しました．
+
+<br>
+<ol>
+    <li>
+<strong>CMakeのビルドシステム：</strong>  
+<ul>
+    <li>Windows / Linux / MacOS のすべてで同じコードベースをビルド可能に</li>
+    <li>GLSLシェーダーのビルド時自動コンパイル機構をCMakeに組み込み</li>
+    <li>GLM や GLFW などのライブラリも CMake を通じて自動で取得・ビルド</li>
+</ul>
+<br>
+　特に MacOS 上で Vulkan を扱う際には，Metal をバックエンドとする<strong>MoltenVK</strong>の導入が必要で，設定とデバッグには多くの調整が必要でした．
+
+</li>
+<li>
+<strong>CI環境の構築：</strong>  
+<ul>
+    <li>GitHub Actions により，自動ビルドワークフローを構築</li>
+    <li>リポジトリへのプッシュやプルリクエスト時に自動でビルドを実行</li>
+    <li>現時点ではユニットテストは未実装ですが，今後の実装する予定</li>
+</ul>
+</li>
+</ol>
+
+このように，開発環境の信頼性と再現性を高めるため，ツールチェーンにもこだわって設計を行いました．
+
+{{< /toggle >}}
+
+<!-- ーーーーーーーーーーーーーーー -->
+
+### Demo
+
+<img src="/img/XenonVk/wireframe.gif" width="800" alt="WireRenderPass"/>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="/img/XenonVk/wireframe3.png" width="350" alt="ワイヤーフレーム"/>
     <img src="/img/XenonVk/lge_latest.png" width="350" alt="複雑なシーン"/>
 </div>
 
-### 参考文献
+### 参考
 
 - [Brendan Galea: LittleVulkanEngine](https://youtu.be/Y9U9IE0gVHA?si=42keJCaEPE-R697P)
 - <https://gameprogrammingpatterns.com/>
 - _Game Engine Architecture_ by Jason Gregory
 - _Game Physics Engine Development_ by Ian Millington
 - <https://learnopengl.com/>
+- ChatGPT
 
-----
+---
 
 ## 3. その他のプロジェクト
 
-### A\) [アポロニアンガスケットジェネレーター *(Rhinoceros/Python)*](https://github.com/WvXY/_TinyProjects/tree/master/ApollonianGasket)
+### A\) [アポロニアンガスケットジェネレーター _(Rhinoceros/Python)_](https://github.com/WvXY/_TinyProjects/tree/master/ApollonianGasket)
 
 <div style="display: flex; gap: 2px; flex-wrap: wrap;">
     <img src="/img/small/ap.gif" height="142"/>
@@ -211,8 +298,7 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
     <img src="/img/small/6.png"  height="142"/>
 </div>
 
-
-### B\) [Voronoi図の実験ツール *(Python/GLSL)*](https://github.com/WvXY/_toolkitPy/blob/main/demos/voronoi_interactive.py)
+### B\) [Voronoi 図の実験ツール _(Python/GLSL)_](https://github.com/WvXY/_toolkitPy/blob/main/demos/voronoi_interactive.py)
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap;">
     <img src="/img/small/voronoi1.gif"          height="200"/>
@@ -220,7 +306,7 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
     <img src="/img/small/voronoi_shader.gif"    height="200"/>
 </div>
 
-### C\) [ [PG24] Free-form Floor Plan Design *(Rust)*](https://github.com/nobuyuki83/floor_plan)
+### C\) [ [PG24] Free-form Floor Plan Design _(Rust)_](https://github.com/nobuyuki83/floor_plan)
 
 <div style="display: flex; gap: 2px; flex-wrap: wrap;">
     <img src="/img/pg24/case1a.gif"   height="142"/>

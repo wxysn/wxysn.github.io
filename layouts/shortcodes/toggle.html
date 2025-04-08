@@ -1,7 +1,12 @@
-<h3 class="toggle">
+{{ $color := .Get "color" | default "#AA6C39" }}
+{{ $border := .Get "border" | default $color }}
+
+<h3 class="toggle" style="color: {{ $color }}">
     <span class="arrow">▶</span> {{ .Get "title" }}
 </h3>
-<div class="content">{{ .Inner }}</div>
+<div class="content" style="border-left: 3px solid {{ $border }}">
+    {{ .Inner }}
+</div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -17,7 +22,6 @@
 <style>
     .toggle {
         cursor: pointer;
-        color: #AA6C39;
         display: flex;
         align-items: center;
         font-weight: bold;
@@ -27,7 +31,6 @@
     .content {
         display: none;
         padding: 10px;
-        border-left: 3px solid #AA6C39;
         margin-bottom: 10px;
     }
 
