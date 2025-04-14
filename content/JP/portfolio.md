@@ -21,7 +21,7 @@ categories: ["Portfolio"]
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: -1.5em;">
     <a href="https://github.com/WvXY/DoorPlacementOptimization" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github&logoColor=white" />
     </a>
     <span style="font-size: 1.2em;">|</span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -169,7 +169,7 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
 
 <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: -1.5em;">
     <a href="https://github.com/WvXY/XenonVk" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" />    
+        <img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github&logoColor=white" />    
     </a>
     <span style="font-size: 1.2em;">|</span>
     <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
@@ -177,7 +177,7 @@ Edge を<strong>切断</strong>する操作と，Edge を<strong>統合</strong>
     <img src="https://img.shields.io/badge/GLSL-3C6994?style=for-the-badge&logo=opengl&logoColor=white&logoWidth=80" />
     <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" />
     <span style="font-size: 1.2em;">|</span>
-    <img src="https://img.shields.io/badge/Rendering-8A2BE2?style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/Game_Engine-8A2BE2?style=for-the-badge&logoColor=white" />
 </div>
 
 ### ハイライト
