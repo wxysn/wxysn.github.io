@@ -213,7 +213,7 @@ params:
 
   analytics:
       google:
-          SiteVerificationTag: "G-TDBQ19SN37"
+          SiteVerificationTag: "G-JCHB9SQS21"
 
   assets:
     disableHLJS: true
@@ -273,7 +273,7 @@ services:
   twitter:
     disableInlineCSS: true
   googleAnalytics:
-    id: G-TDBQ19SN37
+    id: G-JCHB9SQS21
 
 
 # defaultContentLanguage: en
