@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2025-02-28
+date: 2025-09-05
 description: "My Online CV"
 layout: "single"
 toc: false
@@ -19,19 +19,25 @@ toc: false
 ---
 
 ## 💼 Experience  
--  **Game Engine Intern**, Tencent Japan G.K. *(Dec 2024 - Present)*  
+- **Cloud Support Engineer**, GlobalLogic Japan *(Jul 2025 - Present)* 
+- **Game Engine Development Intern**, Tencent Japan G.K. *(Dec 2024 - Jul 2025)*  
 - **Unity Engineer (Part-time)**, I. Meisters Inc. *(Dec 2023 - Aug 2024)*  
 
 ---
 
-## 🚀 Projects  
--  **[Floor Plan Optimization based on Traffic Flow](https://github.com/WvXY/DoorPlacementOptimization)**  
-<!-- - **Master’s research** on **automatic door optimization** using flow diagrams.   -->
+[//]: # (## 🚀 Projects  )
 
-- **[Vulkan Renderer](https://i.xwu.ch/projects/vulkan)**  
-<!-- - Custom **Vulkan-based rendering engine** for learning and experimentation.   -->
+[//]: # (-  **[Floor Plan Optimization based on Traffic Flow]&#40;https://github.com/WvXY/DoorPlacementOptimization&#41;**  )
 
----
+[//]: # (<!-- - **Master’s research** on **automatic door optimization** using flow diagrams.   -->)
+
+[//]: # ()
+[//]: # (- **[Vulkan Renderer]&#40;https://i.xwu.ch/projects/vulkan&#41;**  )
+
+[//]: # (<!-- - Custom **Vulkan-based rendering engine** for learning and experimentation.   -->)
+
+[//]: # ()
+[//]: # (---)
 
 ## 📚 Publications  
 📖 **Xuanyu Wu**, Kenji Tojo, and Nobuyuki Umetani. (2024).  

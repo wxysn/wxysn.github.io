@@ -56,7 +56,10 @@ languages:
         # imageTitle: ProfileMode image
         imageWidth: 160
         imageHeight: 160
-        subtitle: "Hi there! <img src='https://www.svgrepo.com/download/312775/paw-prints.svg' alt='Footstep Icon' width='22' style='vertical-align: middle; display: inline;' />"
+        subtitle: "Hi there! 
+          <img src='https://www.svgrepo.com/download/312775/paw-prints.svg' alt='Footstep Icon' width='22' style='vertical-align: middle; display: inline;' /> 
+          (Under construction ...)
+          "
 
 
   # # French version
@@ -167,9 +170,9 @@ params:
     imageTitle: my image
     # imageWidth: 120
     # imageHeight: 120
-    buttons:
-      - name: About Me
-        url: about
+#    buttons:
+#      - name: About Me
+#        url: about
       # - name: Tags
       #   url: tags
 
