@@ -52,12 +52,12 @@ languages:
       profileMode:
         enabled: true
         title: Xuanyu Wu
-        imageUrl:  "https://www.svgrepo.com/download/454562/animal-cat-circle.svg"
+        imageUrl:  "https://www.svgrepo.com/download/454510/animal-domestic-pet-2.svg"
         # imageTitle: ProfileMode image
         imageWidth: 160
         imageHeight: 160
         subtitle: "Hi there! 
-          <img src='https://www.svgrepo.com/download/312775/paw-prints.svg' alt='Footstep Icon' width='22' style='vertical-align: middle; display: inline;' /> 
+          <img src='https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true' alt='Icon' width='22' style='vertical-align: middle; display: inline;' /> 
           (Under construction ...)
           "
 
@@ -220,11 +220,11 @@ params:
 
   assets:
     disableHLJS: true
-    favicon: "https://www.svgrepo.com/download/454531/animal-domestic-footstep.svg"
+    favicon: "https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true"
     # favicon16x16: "https://img.icons8.com/?size=16&id=7kY6NvvyuPc7&format=png&color=000000"
     # favicon32x32: "https://img.icons8.com/?size=32&id=7kY6NvvyuPc7&format=png&color=000000"
-    apple_touch_icon: "https://www.svgrepo.com/download/454531/animal-domestic-footstep.svg"
-    safari_pinned_tab: "https://www.svgrepo.com/download/454531/animal-domestic-footstep.svg"
+    apple_touch_icon: "https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true"
+    safari_pinned_tab: "https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
