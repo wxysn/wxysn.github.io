@@ -1,8 +1,8 @@
 baseURL: https://i.xwu.ch/
 languageCode: en-us
-title: X.Wu
+title: WXY
 theme: ["PaperMod"]
-copyright: "© [X.Wu](https://github.com/WvXY)"
+copyright: "©[X.Wu](https://github.com/WvXY)"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -56,85 +56,9 @@ languages:
         # imageTitle: ProfileMode image
         imageWidth: 160
         imageHeight: 160
-        subtitle: "Hi there! 
-          <img src='https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true' alt='Icon' width='22' style='vertical-align: middle; display: inline;' /> 
-          (Under construction ...)
+        subtitle: "Hello world! 
+          <img src='https://www.svgrepo.com/download/454570/animal-domestic-dove.svg' alt='Icon' width='22' style='vertical-align: middle; display: inline;' /> 
           "
-
-
-  # # French version
-  # fr:
-  #   languageName: ":fr:"
-  #   weight: 2
-  #   title: X.Wu
-  #   taxonomies:
-  #     category: FRcategories
-  #     tag: FRtags
-  #     series: FRseries
-
-  #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
-  #   params:
-  #     languageAltTitle: French
-  #     profileMode:
-  #       enabled: true
-  #       title: Xuanyu Wu
-  #       imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-  #       # imageTitle: ProfileMode image
-  #       imageWidth: 120
-  #       imageHeight: 120
-  #       subtitle: "Salut 👋"
-  #       # buttons:
-  #       #   - name: Blog
-  #       #     url: posts
-  #       #   - name: Profile Mode
-  #       #     url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-
-  # # Japanese version
-  # jp:
-  #   languageName: ":jp:"
-  #   weight: 3
-  #   title: X.Wu
-  #   taxonomies:
-  #     category: JPcategories
-  #     tag: JPtags
-  #     series: JPseries
-
-  #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
-  #   params:
-  #     languageAltTitle: Japanese
-  #     profileMode:
-  #       enabled: true
-  #       title: 呉 軒宇
-  #       imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-  #       # imageTitle: ProfileMode image
-  #       imageWidth: 120
-  #       imageHeight: 120
-  #       subtitle: "こんにちは！ 👋"
-  #       # buttons:
-  #       #   - name: Blog
-  #       #     url: posts
-  #       #   - name: Profile Mode
-  #       #     url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-
-  # fa:
-  #   languagedirection: rtl
-  #   weight: 3
-  #   title: PaperMod RTL
-  #   taxonomies:
-  #     category: FAcategories
-  #     tag: FAtags
-  #     series: FAseries
-  #   menu:
-  #     main:
-  #       - name: FATags
-  #         url: fatags
-  #         weight: 10
-  #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
-  #   params:
-  #     homeInfoParams:
-  #       Title: "Hi there \U0001F44B"
-  #       Content: Welcome to RTL layout
-
 outputs:
   home:
     - HTML
@@ -143,9 +67,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Hi there 👋"
+  description: "Hello world."
   author: Xuanyu Wu
-  # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
   # disableThemeToggle: true
@@ -220,11 +143,11 @@ params:
 
   assets:
     disableHLJS: true
-    favicon: "https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true"
+    favicon: "https://www.svgrepo.com/download/454570/animal-domestic-dove.svg"
     # favicon16x16: "https://img.icons8.com/?size=16&id=7kY6NvvyuPc7&format=png&color=000000"
     # favicon32x32: "https://img.icons8.com/?size=32&id=7kY6NvvyuPc7&format=png&color=000000"
-    apple_touch_icon: "https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true"
-    safari_pinned_tab: "https://www.svgrepo.com/svg/454570/animal-domestic-dove?edit=true"
+    apple_touch_icon: "https://www.svgrepo.com/download/454570/animal-domestic-dove.svg"
+    safari_pinned_tab: "https://www.svgrepo.com/download/454570/animal-domestic-dove.svg"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
