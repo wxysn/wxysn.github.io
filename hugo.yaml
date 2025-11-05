@@ -52,12 +52,14 @@ languages:
       profileMode:
         enabled: true
         title: Xuanyu Wu
-        imageUrl:  "https://www.svgrepo.com/download/454510/animal-domestic-pet-2.svg"
+        imageUrl:  "img/home/fish.svg"
         # imageTitle: ProfileMode image
         imageWidth: 160
         imageHeight: 160
-        subtitle: "Hello world! 
-          <img src='https://www.svgrepo.com/download/454570/animal-domestic-dove.svg' alt='Icon' width='22' style='vertical-align: middle; display: inline;' /> 
+        subtitle: "
+          <img src='img/home/bird.svg' alt='Icon' width='22' style='vertical-align: middle; display: inline;' />
+          Bienvenue! 
+          <img src='img/home/bird.svg' alt='Icon' width='22' style='vertical-align: middle; display: inline;' /> 
           "
 outputs:
   home:
@@ -118,7 +120,7 @@ params:
     #   # url: "https://ko-fi.com/adityatelange"
     - name: email
       title: Drop me an email
-      url: "mailto:wooxyu@gmail.com"
+      url: "mailto:i@xwu.ch"
     - name: Linkedin
       title: Connect on LinkedIn
       url: "https://www.linkedin.com/in/xy-wu/"
@@ -143,11 +145,11 @@ params:
 
   assets:
     disableHLJS: true
-    favicon: "https://www.svgrepo.com/download/454570/animal-domestic-dove.svg"
+    favicon: "img/home/bird.svg"
     # favicon16x16: "https://img.icons8.com/?size=16&id=7kY6NvvyuPc7&format=png&color=000000"
     # favicon32x32: "https://img.icons8.com/?size=32&id=7kY6NvvyuPc7&format=png&color=000000"
-    apple_touch_icon: "https://www.svgrepo.com/download/454570/animal-domestic-dove.svg"
-    safari_pinned_tab: "https://www.svgrepo.com/download/454570/animal-domestic-dove.svg"
+    apple_touch_icon: "img/home/bird.svg"
+    safari_pinned_tab: "img/home/bird.svg"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
